@@ -1,0 +1,5 @@
+FROM nginx
+
+# Install curl and MySQL client dependencies
+RUN apt-get update && apt-get install -y curl mariadb-client php
+
